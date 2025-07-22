@@ -1,0 +1,52 @@
+/* Hide Streamlit's default main menu and footer */
+#MainMenu, footer, header {
+    visibility: hidden;
+}
+
+/* Style main container */
+.css-18e3th9 {
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #003366;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #3366cc;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #254a99;
+}
+
+/* Expanders */
+.st-expanderHeader {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Input Fields */
+input, textarea {
+    border-radius: 6px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+/* Custom container layout (optional) */
+.custom-container {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
